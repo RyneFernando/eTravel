@@ -1,0 +1,122 @@
+d<!DOCTYPE html>
+<html>
+<head>
+  <title>etravel</title>
+
+  <style>
+
+    .b{
+      font-family: arial, open sans;
+      background-image:url("c.jpg");
+      }
+
+    .main{
+      width: 450px;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 25px;
+      border: 1px solid #0000e6;
+      border-radius: 7px;
+      background-color: #808080;
+
+    }
+
+    .box{
+      width: 325px;
+      margin: 5px;
+      margin-left: 10px;
+      padding: 8px;
+      border: 1px solid #0000e6;
+      border-radius: 7px;
+
+    }
+    #bdate{
+      width: 150px;
+    }
+
+    #country{
+      width: 250px;
+    }
+
+    .rad{
+      margin-left: 10px;
+    }
+
+    button{
+      width: 100px;
+      margin-left: 225px;
+      padding: 10px;
+      border: none;
+      border-radius: 7px;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: bold;
+      background-color: #0000e6;
+
+    
+
+  </style>
+
+  
+</head>
+
+<body class="b">
+
+  <div class="main">
+    <h1>Signup your etravel Account.</h1>
+
+    <center><img src=""></center>
+
+    <form action="signup.php" method="POST">
+      <label>Name :</label><br>
+      <input class="box" id="fname" type="text" name="fname" placeholder="First Name"><br>
+      <input class="box" id="last" type="text" name="last" placeholder="Last Name"><br><br>
+
+      <label>Enter your Email :</label><br>
+      <input class="box" id="Email" type="text" name="Email" placeholder="Enter your new Email Address"><br><br>
+
+      <label>Create a password :</label><br>
+      <input class="box" id="confirm" type="password" name="password" placeholder="Enter a Password"><br>
+
+      <label>Comfirm your password :</label><br>
+      <input class="box" id="confirm" type="password" name="confirm" placeholder="Re-enter Password"><br><br>
+
+      <label>Birthday :</label><br>
+      <input class="box" id="birthday" type="date" name="birthday" placeholder=""><br><br>
+
+      <label>Gender :</label><br>
+      <select class="box" name="gndr" id="country">
+          <option></option>
+          <option value='Male'>Male</option>
+          <option value='Female'>Female</option>
+          <option value='Other'>Other</option>
+      </select><br><br>
+
+      <label>Country :</label><br>
+      <select class="box" name="country" id="country">
+          <option></option>
+          <option value='Sri Lanka'>Sri Lanka</option>
+          <option value='China'>China</option>
+          <option value='America'>America</option>
+          <option value='Ireland'>Ireland</option>
+          <option value='Japan'>Japan</option>
+      </select><br><br>
+
+      <label>Mobile Phone :</label><br>
+      <input class="box" id="pnumber" type="number" name="phone" placeholder="Enter a Phone Number"><br><br>
+
+      <label>AboutYou:</label><br>
+      <textarea class="box" rows="5" cols="50" name="AboutYou"></textarea><br><br>
+
+      <input id="check" type="checkbox" name="checkbox" value=""><label>Accept our Terms and Condition</label><br><br>
+
+      <button id="btn" type="submit" onclick="hi()">Submit</button>
+</form>
+  </div>
+</body>
+</body>
+</html>
+
+    
+
